@@ -1,0 +1,104 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*common end*/
+/*header start*/
+header{
+	margin-top: 3px;
+	/*border: 1px solid red;*/
+
+}
+.wrapper{
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 7%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 5px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 45%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin: 0 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 5px;
+	color: black;
+	transition: .5s;
+	margin-right: 0
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+
+}
+.menu ul li a:hover{
+	color: #2069AD;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 55px 0;
+	/*border: 1px solid red;*/
+
+}
+.container{
+	width: 52%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.b_content{
+	text-align: center;
+	font-family: sans-serif;
+}
+.b_content h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #0F2656;
+	margin: 0;
+}
+.b_content h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #008AFF;
+	margin: 10px 0;
+}
+.b_content p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #0F2656;
+	line-height: 23px;
+	word-spacing: 1px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.b_img{
+	width: 70%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.b_img img{
+	width: 100%;
+
+}
